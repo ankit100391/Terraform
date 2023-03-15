@@ -7,11 +7,11 @@ resource "aws_instance" "this" {
 }
 
 }
-/*resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "b" {
   bucket = "ankit-first-bucket-hulululululu"
 
   tags = {
     Name        = "My bucket"
   }
-}*/
+}
 
